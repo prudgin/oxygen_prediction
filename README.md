@@ -21,7 +21,7 @@ Your insights, feedback, and collaboration are always welcome. Let's continue to
 
 ## Random Forest
 
-This time around, I've incorporated not just past DO readings but also data on water temperature, Secchi disc visibility, and weather. It's worth noting that the weather data was sourced from a nearby city, which might not perfectly mirror the pond's conditions. I believe that gathering on-site weather data could significantly enhance the model's accuracy. Additionally, integrating weather forecasts could offer even more precision.
+This time around (DailyRF.ipynb), I've incorporated not just past DO readings but also data on water temperature, Secchi disc visibility, and weather. It's worth noting that the weather data was sourced from a nearby city, which might not perfectly mirror the pond's conditions. I believe that gathering on-site weather data could significantly enhance the model's accuracy. Additionally, integrating weather forecasts could offer even more precision.
 
 The published notebook is here: https://lnkd.in/gVFJH5nt
 
