@@ -1,6 +1,27 @@
-# OxygenPredictionRF
+# OxygenPrediction
 
-I've incorporated data on water temperature, Secchi disc visibility, and weather. It's worth noting that the weather data was sourced from a nearby city, which might not perfectly mirror the pond's conditions. I believe that gathering on-site weather data could significantly enhance the model's accuracy. Additionally, integrating weather forecasts could offer even more precision.
+In my recent exploration into the world of aquaculture data science, I delved deep into the data from my fish ponds. The challenge? Most up-to-date research utilizes data that is constantly gathered with submerged DO probes. In contrast, our measurements were taken manually, twice a day, during the morning and evening, closely aligning with sunrise and sunset timings (with a variance of +/- one hour).
+
+## SARIMA model
+
+In this research (Arima.ipynb) , I focused on using past DO measurements to predict future DO levels. The goal was clear: predict DO utilizing solely DO data.
+
+TLDR: The model I developed accurately captures the overarching trends, presenting an RMSE ranging from 0.8 to 2. It excels when the data remains stable. However, during heightened DO fluctuations, especially those induced by liming or the introduction of manure, the model faces challenges.
+
+While the current model offers promising results, there's room for improvement. Incorporating additional data such as water temperature, the amount of feed given, weather data, and secchi disc visibility can potentially enhance the model's accuracy and adaptability.
+
+For context, a previous research titled "Machine learning for manually-measured water quality prediction in fish farming" published in PLoS One achieved an RMSE of 1.1787. The study, led by Andres Felipe Zambrano and team, highlighted the potential of machine learning in scenarios with limited data availability in aquaculture. You can read the full research here: https://lnkd.in/gTNTtaTe
+
+For those interested in my methodology and results:
+Published Version: https://lnkd.in/gYzaMhfQ
+
+Full Notebook with Code: https://lnkd.in/gk5FxAjF
+
+Your insights, feedback, and collaboration are always welcome. Let's continue to harness the power of data for sustainable aquaculture!
+
+## Random Forest
+
+This time around, I've incorporated not just past DO readings but also data on water temperature, Secchi disc visibility, and weather. It's worth noting that the weather data was sourced from a nearby city, which might not perfectly mirror the pond's conditions. I believe that gathering on-site weather data could significantly enhance the model's accuracy. Additionally, integrating weather forecasts could offer even more precision.
 
 The published notebook is here: https://lnkd.in/gVFJH5nt
 
